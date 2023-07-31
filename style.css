@@ -1,0 +1,405 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    box-sizing: border-box;
+}
+
+.main{
+    width: 100%;
+    height: 100vh;
+    background-image: url(mainbg.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.navbar{
+    display: flex;
+    background-color: #73140e;
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 80px;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 4%;
+}
+
+.logoname{
+    display:flex;
+    margin-bottom: -5px;
+    margin-left: -60px;
+}
+
+.logo{
+    color: #FFD6EC;
+    font-size: 35px;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+
+span{
+    color: #c91313;
+}
+
+.navbar ul li{
+    list-style-type: none;
+    display: inline-block;
+    padding: 15px 12px;
+
+}
+
+.navbar ul li a{
+    color: white;
+    background-color: transparent;
+    padding: 10px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: large;
+    font-weight: bold;
+    text-transform: capitalize;
+
+}
+.navbar a:hover{
+    background: #dc7f7f;
+    color: black;
+}
+
+.content{
+    position: absolute;
+    top: 50%;
+    left: 8%;
+    transform: translateY(-50%);
+}
+
+
+.content h1{
+    color: #c36c5c;
+    margin: 20px 0 px 20px;
+    font-size: 75px;
+}
+
+.content h3{
+    color: white;
+    font-size: 25px;
+    line-height: 25px;
+    margin-bottom: 50px;
+}
+
+
+.content h4{
+    color: white;
+    letter-spacing: 2px;
+    line-height: 50px;
+    font-size: 20px;
+}
+
+
+.content a{
+    font-size: 20px;
+    color: white;
+    background-color: #00767e;
+    padding: 10px;
+    letter-spacing: 2px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+
+.about{
+    width: 100%;
+    padding: 100px 0px;
+    background-color: black;    
+}
+
+.about img{
+    height: 450px;
+    width: 500 px;
+    padding-top: 30px;
+}
+
+.about-text{
+    width: 550px;
+}
+
+.second{
+    width: 1130px;
+    max-width: 95%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.about h2{
+    color:#c36c5c;
+    font-size: 70px;
+    width: -300px;
+    margin: 30px auto;
+    text-align: center;
+
+}
+
+.about-text h5{
+    color: #A7FFE4;
+    letter-spacing: 2px;
+    font-size: 22px;
+    margin-bottom: 25px;
+    text-transform: capitalize;
+    margin-left: 20px;
+    text-align: center;
+}
+
+.about-text p{
+    color: white;
+    font-size: 18px;
+    letter-spacing: 1px;
+    line-height: 28px;
+    margin-bottom: 45px;
+    text-align: justify;
+    margin-left: 20px;
+}
+
+.education{
+    background-color: black;
+    width: 100%;
+    padding: 100px 0px;
+}
+
+.educ h2{
+    color:#c36c5c;
+    font-size: 70px;
+    width: 1130px;
+    margin: 30px auto;
+    text-align: center;
+}
+
+.box{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 200px;
+    margin: -10px;
+    margin-top: 80px;
+    margin-left: 8px;
+}
+
+.box1{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 200px;
+    margin: -10px;
+    margin-top: 80px;
+}
+
+.card{
+    height: 300px;
+    width: 335px;
+    padding: 20px 35px;
+    background: #edd6d6;
+    border-radius: 20px;
+    margin-inline-start: 20px;
+    margin-inline-end: 20px;
+    align-items: center;
+}
+
+.card1{
+    height: 300px;
+    width: 335px;
+    padding: 20px 35px;
+    background: white;
+    border-radius: 20px;
+    margin-inline-start: 20px;
+    margin-inline-end: 20px;
+    align-items: center;
+}
+
+.card h3{
+    text-align: center;
+    color: white;
+    background: #8d6d5f;
+    font-size: 25px;
+    margin: 10px;
+    padding: 5px;
+    border-radius: 2px;
+}
+
+.card h3:hover{
+    background: #c68c8c;
+    color: black;
+}
+
+
+.educ-text1 h4{
+    text-align: center;
+    color: #ffe8d6;
+    background: #1e1003;
+    font-size: medium;
+    padding: 5px;
+    border-radius: 2px;
+    margin-bottom: 30px;
+    margin-top: 25px;
+}
+
+.educ-text h4{
+    text-align: center;
+    color: black;
+    font-size: small;
+    margin-bottom: 10px;
+}
+.educ-text1 p{
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: large;
+    margin: 10px;
+}
+.educ-text p{
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: large;
+    margin: 10px;
+}
+
+.educ-text img{
+    width: 100px;
+    height: 100px;
+    margin-left: 80px;
+    margin-top: 10px;
+}
+
+.achievements{
+    width: 100%;
+    padding: 100px 0;
+    background-color: black;
+}
+
+.achievements h2{
+    color: #c36c5c;
+    font-size: 75px;
+    text-align: center;
+    text-transform: capitalize;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+}
+
+.award{
+    width: 1130px;
+    max-width: 95%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 5px 0;
+}
+
+.award-text{
+    width: 550px;
+    text-align: justify;
+}
+
+.award-text h2:hover{
+    background: #ffc6c6;
+    color: black;
+}
+
+.award-text p{
+    color: #99b890 ;
+    text-align: center;
+    padding-top: 5px;
+}
+
+
+.award-text h2{
+    color: #ebc5ab;
+    font-size: 50px;
+    text-transform: capitalize;
+    margin-bottom: 10px;
+    margin-top: 30px;
+    line-height: 1px;
+    padding: 30px;
+    border-radius: 10px;
+}
+
+.organization{
+    background-color: black;
+    width: 100%;
+    padding: 100px 0px;
+}
+
+.org-title h2{
+    color: #c36c5c;
+    font-size: 70px;
+    width: 1130px;
+    margin: 30px auto;
+    text-align: center;
+}
+
+.contact{
+    width: 100%;
+    height: 100vh;
+    background-image: url(mainbg.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.contact h2{
+    color: #c36c5c;
+    font-size: 75px;
+    text-align:left;
+    text-transform: capitalize;
+    padding-top: 185px;
+    margin-bottom: 20px;
+    margin-left:170px;
+}
+
+.card2 h4{
+    text-align: left;
+    color: #fbf6f2;
+    font-size: medium;
+    font-size: 20px;
+    margin: 10px;
+    margin-left: 170px;
+    padding: 5px;
+    border-radius: 2px;
+}
+
+.educ-text2 h4{
+    text-align: left;
+    color: hsl(32, 29%, 91%);
+    font-size: medium;
+    font-size: 20px;
+    padding: 5px;
+    margin-left: 170px;
+    border-radius: 2px;
+    margin-bottom: 30px;
+    margin-top: 25px;
+}
+
+.educ-text2 p{
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: large;
+    margin: 10px;
+}
+
+.icon{
+    background-color: transparent;
+    border-radius: 100px;
+    margin-left: 260px;
+    padding: 5px;
+    padding-top: -10px;
+}
+
+
+
+
+
+
+
